@@ -1,5 +1,20 @@
 $(function () {
-  $('[data-toggle="tooltip"]').tooltip()
+  $('[data-toggle="tooltip"]').tooltip();
+
+  $('#btn-m1').click(function(){
+    $('#exampleModalScrollable').modal('show')
+  });
+
+  $('#btn-m2').click(function(){
+    $('#modal2').modal('show')
+  });
+
+  $('#btn-m3').click(function(){
+    $('#modal3').modal('show')
+  });
+
+
+
 })
 
 $(document).ready(function(){
